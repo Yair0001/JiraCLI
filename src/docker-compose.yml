@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jira-cli:
+    build: .
+    container_name: jira-cli
+    stdin_open: true  # Keep STDIN open
+    tty: true         # Allocate a pseudo-TTY
+    environment:
+      - TERM=xterm-256color

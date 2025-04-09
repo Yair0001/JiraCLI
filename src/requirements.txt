@@ -1,0 +1,5 @@
+jira==3.5.1
+questionary==2.0.1
+rich==13.6.0
+requests==2.31.0
+termcolor==2.3.0
